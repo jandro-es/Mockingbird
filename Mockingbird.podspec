@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Mockingbird'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Network Abstraction Layer written in Swift and leveraging URLSession'
 
   s.description      = <<-DESC
@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.12'
   s.default_subspec = "Core"
   s.swift_version = '4.2'
-  s.source_files = 'Sources/**/*'
 
   s.subspec "Core" do |ss|
     ss.source_files  = "Sources/Mockingbird/", "Sources/Mockingbird/Middleware/", "Sources/Mockingbird/Extensions/"
