@@ -94,7 +94,7 @@ public extension Response {
     /// - Parameter statusCodes: A Collection of status codes to validate
     /// - Returns: The `Response` object if it's status code is contained in the given ones
     /// - Throws: MockingbirdError.invalidStatusCode
-    public func filter<R: RangeExpression>(statusCodes: R) throws -> Response where R.Bound == Int {
+    func filter<R: RangeExpression>(statusCodes: R) throws -> Response where R.Bound == Int {
         guard statusCodes.contains(statusCode) else {
             throw MockingbirdError.invalidStatusCode(self)
         }
@@ -106,7 +106,7 @@ public extension Response {
     /// - Parameter statusCode: The status code to validate the response against
     /// - Returns: The `Response` object if it's status code is equal to the given one
     /// - Throws: MockingbirdError.invalidStatusCode
-    public func filter(statusCode: Int) throws -> Response {
+    func filter(statusCode: Int) throws -> Response {
         return try filter(statusCodes: statusCode...statusCode)
     }
 
@@ -114,7 +114,7 @@ public extension Response {
     ///
     /// - Returns: The `Response` object if it's status code is contained in standard success codes
     /// - Throws: MockingbirdError.invalidStatusCode
-    public func filterSuccessfulStatusCodes() throws -> Response {
+    func filterSuccessfulStatusCodes() throws -> Response {
         return try filter(statusCodes: 200...299)
     }
 
@@ -122,7 +122,7 @@ public extension Response {
     ///
     /// - Returns: The `Response` object if it's status code is contained in standard success and redirect codes
     /// - Throws: MockingbirdError.invalidStatusCode
-    public func filterSuccessfulStatusAndRedirectCodes() throws -> Response {
+    func filterSuccessfulStatusAndRedirectCodes() throws -> Response {
         return try filter(statusCodes: 200...399)
     }
 
@@ -148,7 +148,7 @@ public extension Response {
     /// - Parameter keyPath: Optional Keypath to start the parsing from
     /// - Returns: A `String`
     /// - Throws: MockingbirdError.stringMapping
-    public func mapString(at keyPath: String? = nil) throws -> String {
+    func mapString(at keyPath: String? = nil) throws -> String {
         if let keyPath = keyPath {
             // Key path was provided, try to parse string at key path
             guard let jsonDictionary = try mapJSON() as? NSDictionary,

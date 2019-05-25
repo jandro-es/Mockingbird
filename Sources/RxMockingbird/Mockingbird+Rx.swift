@@ -36,7 +36,7 @@ public extension Reactive where Base: MockingbirdType {
     ///   - endpoint: The endpoint of the `RemoteService`
     ///   - queue: The `DispatchQueue` to use
     /// - Returns: A singel observable of type `Single<Response>`
-    public func request(_ endpoint: Base.RemoteService, queue: DispatchQueue? = nil) -> Single<Response> {
+    func request(_ endpoint: Base.RemoteService, queue: DispatchQueue? = nil) -> Single<Response> {
         return Single.create { [weak base] single in
             let requestOperation = base?.request(endpoint, queue: queue) { result in
                 switch result {

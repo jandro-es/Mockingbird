@@ -161,10 +161,9 @@ extension Request {
 
 extension Request: Hashable {
 
-    // swiftlint:disable legacy_hashing
-    public var hashValue: Int {
+    public func hash(into hasher: inout Hasher) {
         let request = try? urlRequest()
-        return request?.hashValue ?? url.hashValue
+        hasher.combine(request?.hashValue ?? url.hashValue)
     }
 }
 
