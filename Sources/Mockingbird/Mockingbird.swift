@@ -359,7 +359,7 @@ public extension Mockingbird {
     ///   - request: The generated `Request` object
     ///   - middleware: The collection of `MiddlewareType` to use
     ///   - urlRequest: The generated `URLRequest`
-    public final func stubFunction(_ requestOperation: RequestOperation, for endpoint: RemoteService, completion: @escaping CompletionLambda, request: Request, middleware: [MiddlewareType], urlRequest: URLRequest) -> (() -> Void) {
+    final func stubFunction(_ requestOperation: RequestOperation, for endpoint: RemoteService, completion: @escaping CompletionLambda, request: Request, middleware: [MiddlewareType], urlRequest: URLRequest) -> (() -> Void) {
         return {
             if requestOperation.isCancelled {
                 self.cancelCompletion(completion, endpoint: endpoint)
@@ -514,14 +514,14 @@ public extension Mockingbird {
     /// Class method to set `StubBehavior` to `.never`
     ///
     /// - Returns: A `Mockingbird.StubBehavior`
-    public final class func neverStub(_: RemoteServiceType) -> Mockingbird.StubBehavior {
+    final class func neverStub(_: RemoteServiceType) -> Mockingbird.StubBehavior {
         return .never
     }
 
     /// Class method to set the `StubBehavior` to `.immediate`
     ///
     /// - Returns: A `Mockingbird.StubBehavior`
-    public final class func immediatelyStub(_: RemoteServiceType) -> Mockingbird.StubBehavior {
+    final class func immediatelyStub(_: RemoteServiceType) -> Mockingbird.StubBehavior {
         return .immediate
     }
 
@@ -529,7 +529,7 @@ public extension Mockingbird {
     ///
     /// - Parameter seconds: The ammount of seconds to delay the response
     /// - Returns: A `Mockingbird.StubBehavior`
-    public final class func delayedStub(_ seconds: TimeInterval) -> (RemoteServiceType) -> Mockingbird.StubBehavior {
+    final class func delayedStub(_ seconds: TimeInterval) -> (RemoteServiceType) -> Mockingbird.StubBehavior {
         return { _ in
             return .delayed(seconds: seconds)
         }

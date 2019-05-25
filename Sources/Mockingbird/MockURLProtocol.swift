@@ -21,23 +21,21 @@
 // THE SOFTWARE.
 
 import Foundation
-import XCTest
 
-final class MockURLProtocol: URLProtocol {
+final public class MockURLProtocol: URLProtocol {
     static var requestHandler: ((URLRequest) throws -> (HTTPURLResponse, Data))?
 
-    override class func canInit(with request: URLRequest) -> Bool {
+    override public class func canInit(with request: URLRequest) -> Bool {
         return true
     }
 
-    override class func canonicalRequest(for request: URLRequest) -> URLRequest {
+    override public class func canonicalRequest(for request: URLRequest) -> URLRequest {
         return request
     }
 
-    override func startLoading() {
+    override public func startLoading() {
         guard let handler = MockURLProtocol.requestHandler else {
-            XCTFail("Received unexpected request with not handler set")
-            return
+            fatalError("Received unexpected request with not handler")
         }
         do {
             let (response, data) = try handler(request)
@@ -49,5 +47,5 @@ final class MockURLProtocol: URLProtocol {
         }
     }
 
-    override func stopLoading() { }
+    override public func stopLoading() { }
 }

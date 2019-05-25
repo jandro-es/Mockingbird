@@ -24,6 +24,7 @@
 		B143191822109A320036EED3 /* RequestOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B143191722109A320036EED3 /* RequestOperation.swift */; };
 		B19F5F02221DE697008308E0 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F5F01221DE697008308E0 /* HTTPMethod.swift */; };
 		B19F5F04222C7244008308E0 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19F5F03222C7244008308E0 /* RequestTests.swift */; };
+		B1E3F5CC2299B19B00F349CF /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* MockURLProtocol.swift */; };
 		OBJ_231 /* RemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* RemoteService.swift */; };
 		OBJ_232 /* AnyEncodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* AnyEncodable.swift */; };
 		OBJ_234 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Request.swift */; };
@@ -43,7 +44,6 @@
 		OBJ_250 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Result::Result::Product" /* Result.framework */; };
 		OBJ_258 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_270 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Helpers.swift */; };
-		OBJ_271 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* MockURLProtocol.swift */; };
 		OBJ_272 /* MockingbirdErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* MockingbirdErrorTests.swift */; };
 		OBJ_273 /* MockingbirdIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* MockingbirdIntegrationTests.swift */; };
 		OBJ_274 /* MockingbirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* MockingbirdTests.swift */; };
@@ -634,7 +634,6 @@
 				B18E0A6221FE6DF400662739 /* logo.png */,
 				B19F5F03222C7244008308E0 /* RequestTests.swift */,
 				OBJ_36 /* Helpers.swift */,
-				OBJ_37 /* MockURLProtocol.swift */,
 				OBJ_38 /* MockingbirdErrorTests.swift */,
 				OBJ_39 /* MockingbirdIntegrationTests.swift */,
 				OBJ_40 /* MockingbirdTests.swift */,
@@ -906,6 +905,7 @@
 		OBJ_8 /* Mockingbird */ = {
 			isa = PBXGroup;
 			children = (
+				OBJ_37 /* MockURLProtocol.swift */,
 				B143191722109A320036EED3 /* RequestOperation.swift */,
 				OBJ_9 /* RemoteService.swift */,
 				OBJ_10 /* AnyEncodable.swift */,
@@ -1107,6 +1107,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = OBJ_5;
@@ -1141,6 +1142,7 @@
 				OBJ_237 /* URL+RemoteService.swift in Sources */,
 				OBJ_238 /* URLRequest+encoding.swift in Sources */,
 				B143191822109A320036EED3 /* RequestOperation.swift in Sources */,
+				B1E3F5CC2299B19B00F349CF /* MockURLProtocol.swift in Sources */,
 				OBJ_239 /* Middleware.swift in Sources */,
 				OBJ_240 /* AccessTokenMiddleware.swift in Sources */,
 				OBJ_241 /* NetworkActivityMiddleware.swift in Sources */,
@@ -1167,7 +1169,6 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_270 /* Helpers.swift in Sources */,
-				OBJ_271 /* MockURLProtocol.swift in Sources */,
 				OBJ_272 /* MockingbirdErrorTests.swift in Sources */,
 				OBJ_273 /* MockingbirdIntegrationTests.swift in Sources */,
 				OBJ_274 /* MockingbirdTests.swift in Sources */,

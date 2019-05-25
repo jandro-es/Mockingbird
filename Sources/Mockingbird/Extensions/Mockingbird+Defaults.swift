@@ -29,7 +29,7 @@ public extension Mockingbird {
     ///
     /// - Parameter endpoint: The endpoint of a `RemoteServiceType`
     /// - Returns: A `Request` object mapped from said endpoint
-    public final class func defaultRequestMapping(for endpoint: RemoteService) -> Request {
+    final class func defaultRequestMapping(for endpoint: RemoteService) -> Request {
         let sampleResponse: Request.SampleResponse = { .networkResponse(statusCode: 200, data: endpoint.testData) }
         return Request(url: URL(endpoint: endpoint).absoluteString, sampleResponse: sampleResponse, method: endpoint.method, requestType: endpoint.requestType, headers: endpoint.headers)
     }
@@ -45,7 +45,7 @@ public extension Mockingbird {
     ///   - MockingbirdError.requestMapping
     ///   - MockingbirdError.parameterEncoding
     ///   - MockingbirdError.network
-    public final class func defaultRequestMapping(for request: Request, lambda: RequestResultLambda) {
+    final class func defaultRequestMapping(for request: Request, lambda: RequestResultLambda) {
         do {
             let urlRequest = try request.urlRequest()
             lambda(.success(urlRequest))
@@ -61,7 +61,7 @@ public extension Mockingbird {
     /// The default `URLSessionConfiguration` for `Mockingbird`
     ///
     /// - Returns: URLSessionConfiguration.default
-    public final class func defaultConfiguration() -> URLSessionConfiguration {
+    final class func defaultConfiguration() -> URLSessionConfiguration {
         return URLSessionConfiguration.default
     }
 }

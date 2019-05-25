@@ -17,7 +17,7 @@ let package = Package(
             name: "Mockingbird",
             dependencies: ["Result"],
             path: "Sources/Mockingbird",
-            exclude: ["Tests", "Sources/Supporting Files", "Examples", "Docs"]),
+            exclude: ["Tests", "Sources/Supporting Files", "Examples", "Docs", "images"]),
         .testTarget(
             name: "MockingbirdTests",
             dependencies: ["Mockingbird", "Result"]),
@@ -25,6 +25,6 @@ let package = Package(
             name: "RxMockingbird",
             dependencies: ["Mockingbird", "RxSwift"],
             path: "Sources/RxMockingbird",
-            exclude: ["Tests", "Sources/Supporting Files", "Examples", "Docs"])
+            exclude: ["Tests", "Sources/Supporting Files", "Examples", "Docs", "images"])
     ]
 )
