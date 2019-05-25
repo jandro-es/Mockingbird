@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Mockingbird-Swift'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'Network Abstraction Layer written in Swift and leveraging URLSession'
 
   s.description      = <<-DESC
