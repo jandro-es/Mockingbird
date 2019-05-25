@@ -1,6 +1,6 @@
 
 Pod::Spec.new do |s|
-  s.name             = 'Mockingbird'
+  s.name             = 'Mockingbird-Swift'
   s.version          = '1.0.3'
   s.summary          = 'Network Abstraction Layer written in Swift and leveraging URLSession'
 
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.subspec "RxSwift" do |ss|
     ss.source_files = "Sources/RxMockingbird/"
-    ss.dependency "Mockingbird/Core"
+    ss.dependency "Mockingbird-Swift/Core"
     ss.dependency "RxSwift", "~> 4.4"
   end
 
