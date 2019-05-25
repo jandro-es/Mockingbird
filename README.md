@@ -1,3 +1,6 @@
+<img src="images/mockingbird-logo.png">
+
+[![CircleCI](https://circleci.com/gh/jandro-es/Mockingbird/tree/develop.svg?style=svg)](https://circleci.com/gh/jandro-es/Mockingbird/tree/develop)  [![codecov](https://codecov.io/gh/jandro-es/Mockingbird/branch/develop/graph/badge.svg)](https://codecov.io/gh/jandro-es/Mockingbird)
 # Mockingbird
 
 **Mockingbird** is a **N**etwork **A**bstraction **L**ayer *(NAL)* written in swift leveraging the power and versatility of *Foundation's* **URLSession**. It's compatible with **iOS** version *9* or greater and **macOS** version *10.12* or greater.
