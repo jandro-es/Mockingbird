@@ -13,8 +13,8 @@ It draws inspiration from [Moya](https://github.com/Moya/Moya) and [Alamofire](h
 - [Mockingbird](#mockingbird)
   - [Table of contents](#table-of-contents)
   - [Installation](#installation)
-    - [Installing *Mockingbird* using *Cocoapods*](#installing-mockingbird-using-cocoapods)
-    - [Installing *Mockingbird* using *Swift Package Manager*](#installing-mockingbird-using-swift-package-manager)
+    - [Cocoapods](#cocoapods)
+    - [Swift Package Manager](#swift-package-manager)
   - [Architecture](#architecture)
   - [Using Mockingbird](#using-mockingbird)
   - [Logging](#logging)
@@ -29,11 +29,42 @@ It draws inspiration from [Moya](https://github.com/Moya/Moya) and [Alamofire](h
 At the moment only **Cocoapods** and **Swift Package Manager SPM** are supported, with support for *Carthage* comming soon.
 **Swift 4.x** and **Xcode 10.x** are required to build it.
 
-### Installing *Mockingbird* using *Cocoapods*
+### Cocoapods
 
-### Installing *Mockingbird* using *Swift Package Manager*
+To install `Mockingird` using **Cocoapods** just add it to your project's `Podfile`:
+
+```bash
+ pod 'Mockingbird-Swift'
+```
+
+and if you want to use the **RxSwift** extensions add them:
+
+```bash
+pod 'Mockingbird-Swift/RxSwift'
+```
+
+To use the library in your application please import the Swift module as follows:
+
+```swift
+import Mockingbird_Swift
+```
+
+### Swift Package Manager
+
+Just add `Mockingbird` as a dependency in your `Package.swift` file:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/jandro-es/Mockingbird", .upToNextMajor(from: "1.0.0"))
+]
+```
 
 ## Architecture
+
+**Mockingbird** simplifies the creation of a network layer in your application. You can define your entire layer in a declarative way by implementing the `RemoteServiceType` protocol in your different types. Generating a simple map of your network endpoints. Mockingbird uses `URLSession` as it's undelying network system, exposing it's configuration, allowing you to customise it, among many other customisations, as needed.
+A simplified architecture diagram:
+
+<img src="images/mockingbird-architecture.png">
 
 ## Using Mockingbird
 
