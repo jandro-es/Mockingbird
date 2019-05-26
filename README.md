@@ -35,6 +35,7 @@ It draws inspiration from [Moya](https://github.com/Moya/Moya) and [Alamofire](h
   - [Logging](#logging)
   - [Comming soon](#comming-soon)
   - [Contributing](#contributing)
+    - [Installing the project](#installing-the-project)
   - [License](#license)
 
 ## Installation
@@ -321,6 +322,32 @@ Mockingbird uses [Apple's Unified Logging](https://developer.apple.com/documenta
 
 ## Contributing
 
+### Installing the project
+
+We use **Swift Package Manager** to develop the framework, after cloning the project run:
+
+```bash
+
+swift package generate-xcodeproj
+
+```
+
+to generate a Xcode project. For building run:
+
+```bash
+
+swift build
+
+```
+
+and for running the tests *(assumming you have xcpretty installed, remove the pipe if not)*.
+
+```bash
+
+xcodebuild test -scheme Mockingbird-Package -project Mockingbird.xcodeproj -enableCodeCoverage YES | xcpretty
+
+```
+
 ## License
 
-This project is released under [MIT](LICENSE.md) license.
+This project is released under [MIT](LICENSE) license.
