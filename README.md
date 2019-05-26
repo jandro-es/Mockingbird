@@ -306,12 +306,12 @@ static var networkActivityIndicator: NetworkActivityMiddleware {
 ## Logging
 
 Mockingbird uses [Apple's Unified Logging](https://developer.apple.com/documentation/os/logging).
-| Subsystem     | Category      |
-| ------------- |:-------------:|
+| Subsystem | Category |
+| ------------- | ------------- |
 | com.filtercode.mockingbird | request_operation |
-| com.filtercode.mockingbird | request      |
-| com.filtercode.mockingbird | response      |
-| com.filtercode.mockingbird | middleware      |
+| com.filtercode.mockingbird | request |
+| com.filtercode.mockingbird | response |
+| com.filtercode.mockingbird | middleware |
 
 ## Comming soon
 
