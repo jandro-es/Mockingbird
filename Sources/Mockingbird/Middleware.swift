@@ -21,7 +21,6 @@
 // THE SOFTWARE.
 
 import Foundation
-import Result
 
 /// Defines a `Middleware` type that can be used to modify, notify, track, etc. the
 /// actual requests of `Mockingbird`
