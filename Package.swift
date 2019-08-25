@@ -1,4 +1,4 @@
-// swift-tools-version:4.2
+// swift-tools-version:5.0
 
 import PackageDescription
 
@@ -9,18 +9,16 @@ let package = Package(
         .library(name: "RxMockingbird", targets: ["RxMockingbird"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/antitypical/Result.git", .upToNextMajor(from: "4.0.0")),
-        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "4.0.0"))
+        .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "5.0.0"))
     ],
     targets: [
         .target(
             name: "Mockingbird",
-            dependencies: ["Result"],
             path: "Sources/Mockingbird",
             exclude: ["Tests", "Sources/Supporting Files", "Examples", "Docs", "images"]),
         .testTarget(
             name: "MockingbirdTests",
-            dependencies: ["Mockingbird", "Result"]),
+            dependencies: ["Mockingbird"]),
         .target(
             name: "RxMockingbird",
             dependencies: ["Mockingbird", "RxSwift"],

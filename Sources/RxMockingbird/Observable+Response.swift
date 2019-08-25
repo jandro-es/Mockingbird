@@ -26,14 +26,14 @@ import RxSwift
 import Mockingbird
 #endif
 
-extension ObservableType where E == Response {
+extension ObservableType where Element == Response {
 
     /// Rx operator that filters the `Response` if the status code is not contained
     /// in the given ones. Generates errors when impossible to satisfy.
     ///
     /// - Parameter statusCodes: The collection of status code to validate against
     /// - Returns: An observable of type `Observable<Response>`
-    public func filter<R: RangeExpression>(statusCodes: R) -> Observable<E> where R.Bound == Int {
+    public func filter<R: RangeExpression>(statusCodes: R) -> Observable<Element> where R.Bound == Int {
         return flatMap {
             Observable.just( try $0.filter(statusCodes: statusCodes) )
         }
@@ -44,7 +44,7 @@ extension ObservableType where E == Response {
     ///
     /// - Parameter statusCode: The status code to validate against
     /// - Returns: An observable of type `Observable<Response>`
-    public func filter(statusCode: Int) -> Observable<E> {
+    public func filter(statusCode: Int) -> Observable<Element> {
         return flatMap {
             Observable.just( try $0.filter(statusCode: statusCode) )
         }
@@ -54,7 +54,7 @@ extension ObservableType where E == Response {
     /// standard success ones (200,...,299). Generates errors when impossible to satisfy.
     ///
     /// - Returns: An observable of type `Observable<Response>`
-    public func filterSuccessfulStatusCodes() -> Observable<E> {
+    public func filterSuccessfulStatusCodes() -> Observable<Element> {
         return flatMap {
             Observable.just( try $0.filterSuccessfulStatusCodes() )
         }
@@ -64,7 +64,7 @@ extension ObservableType where E == Response {
     /// standard success or redirect ones (200,...,399). Generates errors when impossible to satisfy.
     ///
     /// - Returns: An observable of type `Observable<Response>`
-    public func filterSuccessfulStatusAndRedirectCodes() -> Observable<E> {
+    public func filterSuccessfulStatusAndRedirectCodes() -> Observable<Element> {
         return flatMap {
             Observable.just( try $0.filterSuccessfulStatusAndRedirectCodes() )
         }

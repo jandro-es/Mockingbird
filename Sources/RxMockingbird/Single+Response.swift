@@ -26,14 +26,14 @@ import RxSwift
 import Mockingbird
 #endif
 
-extension PrimitiveSequence where TraitType == SingleTrait, E == Response {
+extension PrimitiveSequence where Trait == SingleTrait, Element == Response {
 
     /// Rx operator that filters the `Response` if the status code is not contained
     /// in the given ones. Generates errors when impossible to satisfy.
     ///
     /// - Parameter statusCodes: The collection of status code to validate against
     /// - Returns: An observable of type `Single<Response>`
-    public func filter<R: RangeExpression>(statusCodes: R) -> Single<E> where R.Bound == Int {
+    public func filter<R: RangeExpression>(statusCodes: R) -> Single<Element> where R.Bound == Int {
         return flatMap {
             Single.just( try $0.filter(statusCodes: statusCodes ))
         }
@@ -44,7 +44,7 @@ extension PrimitiveSequence where TraitType == SingleTrait, E == Response {
     ///
     /// - Parameter statusCode: The status code to validate against
     /// - Returns: An observable of type `Single<Response>`
-    public func filter(statusCode: Int) -> Single<E> {
+    public func filter(statusCode: Int) -> Single<Element> {
         return flatMap {
             Single.just( try $0.filter(statusCode: statusCode) )
         }
@@ -54,7 +54,7 @@ extension PrimitiveSequence where TraitType == SingleTrait, E == Response {
     /// standard success ones (200,...,299). Generates errors when impossible to satisfy.
     ///
     /// - Returns: An observable of type `Single<Response>`
-    public func filterSuccessfulStatusCodes() -> Single<E> {
+    public func filterSuccessfulStatusCodes() -> Single<Element> {
         return flatMap {
             Single.just( try $0.filterSuccessfulStatusCodes() )
         }
@@ -64,7 +64,7 @@ extension PrimitiveSequence where TraitType == SingleTrait, E == Response {
     /// standard success or redirect ones (200,...,399). Generates errors when impossible to satisfy.
     ///
     /// - Returns: An observable of type `Single<Response>`
-    public func filterSuccessfulStatusAndRedirectCodes() -> Single<E> {
+    public func filterSuccessfulStatusAndRedirectCodes() -> Single<Element> {
         return flatMap {
             Single.just( try $0.filterSuccessfulStatusAndRedirectCodes() )
         }
