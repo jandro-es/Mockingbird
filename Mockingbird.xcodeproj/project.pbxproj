@@ -213,28 +213,28 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B1143E202311BE1400E9010B /* PBXContainerItemProxy */ = {
+		B138962123129570005C142E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "RxSwift::RxSwift";
 			remoteInfo = RxSwift;
 		};
-		B1143E212311BE1400E9010B /* PBXContainerItemProxy */ = {
+		B138962223129570005C142E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Mockingbird::Mockingbird";
 			remoteInfo = Mockingbird;
 		};
-		B1143E222311BE1400E9010B /* PBXContainerItemProxy */ = {
+		B138962323129570005C142E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "Mockingbird::Mockingbird";
 			remoteInfo = Mockingbird;
 		};
-		B1143E232311BE1600E9010B /* PBXContainerItemProxy */ = {
+		B138962423129572005C142E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -365,11 +365,11 @@
 		OBJ_207 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/jandro/Projects/Cocoa/Mockingbird/.build/checkouts/RxSwift.git-5286909367015978049/Package.swift"; sourceTree = "<group>"; };
 		OBJ_21 /* Mockingbird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockingbird.swift; sourceTree = "<group>"; };
 		OBJ_213 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = SOURCE_ROOT; };
-		OBJ_214 /* Examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Examples; sourceTree = SOURCE_ROOT; };
-		OBJ_215 /* swift-guidelines.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "swift-guidelines.md"; sourceTree = "<group>"; };
+		OBJ_214 /* Docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Docs; sourceTree = SOURCE_ROOT; };
+		OBJ_215 /* Examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Examples; sourceTree = SOURCE_ROOT; };
 		OBJ_216 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		OBJ_217 /* Mockingbird.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Mockingbird.podspec; sourceTree = "<group>"; };
-		OBJ_218 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_217 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_218 /* Mockingbird-Swift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Mockingbird-Swift.podspec"; sourceTree = "<group>"; };
 		OBJ_22 /* MockingbirdError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingbirdError.swift; sourceTree = "<group>"; };
 		OBJ_23 /* ParameterEncodingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncodingType.swift; sourceTree = "<group>"; };
 		OBJ_24 /* RemoteService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteService.swift; sourceTree = "<group>"; };
@@ -510,8 +510,8 @@
 			isa = PBXGroup;
 			children = (
 				"Mockingbird::RxMockingbird::Product" /* RxMockingbird.framework */,
-				"Mockingbird::Mockingbird::Product" /* Mockingbird.framework */,
 				"Mockingbird::MockingbirdTests::Product" /* MockingbirdTests.xctest */,
+				"Mockingbird::Mockingbird::Product" /* Mockingbird.framework */,
 				"RxSwift::RxSwift::Product" /* RxSwift.framework */,
 			);
 			name = Products;
@@ -587,11 +587,11 @@
 				OBJ_48 /* Dependencies */,
 				OBJ_208 /* Products */,
 				OBJ_213 /* images */,
-				OBJ_214 /* Examples */,
-				OBJ_215 /* swift-guidelines.md */,
+				OBJ_214 /* Docs */,
+				OBJ_215 /* Examples */,
 				OBJ_216 /* LICENSE */,
-				OBJ_217 /* Mockingbird.podspec */,
-				OBJ_218 /* README.md */,
+				OBJ_217 /* README.md */,
+				OBJ_218 /* Mockingbird-Swift.podspec */,
 			);
 			name = "";
 			sourceTree = "<group>";
@@ -1185,22 +1185,22 @@
 		OBJ_254 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Mockingbird::MockingbirdTests" /* MockingbirdTests */;
-			targetProxy = B1143E232311BE1600E9010B /* PBXContainerItemProxy */;
+			targetProxy = B138962423129572005C142E /* PBXContainerItemProxy */;
 		};
 		OBJ_273 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Mockingbird::Mockingbird" /* Mockingbird */;
-			targetProxy = B1143E222311BE1400E9010B /* PBXContainerItemProxy */;
+			targetProxy = B138962323129570005C142E /* PBXContainerItemProxy */;
 		};
 		OBJ_285 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "RxSwift::RxSwift" /* RxSwift */;
-			targetProxy = B1143E202311BE1400E9010B /* PBXContainerItemProxy */;
+			targetProxy = B138962123129570005C142E /* PBXContainerItemProxy */;
 		};
 		OBJ_287 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Mockingbird::Mockingbird" /* Mockingbird */;
-			targetProxy = B1143E212311BE1400E9010B /* PBXContainerItemProxy */;
+			targetProxy = B138962223129570005C142E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

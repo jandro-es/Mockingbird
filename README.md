@@ -14,7 +14,11 @@ It draws inspiration from [Moya](https://github.com/Moya/Moya) and [Alamofire](h
   - [Table of contents](#table-of-contents)
   - [Installation](#installation)
     - [Cocoapods](#cocoapods)
+      - [Swift 4.2](#swift-42)
+      - [Swift 5](#swift-5)
     - [Swift Package Manager](#swift-package-manager)
+      - [Swift 4.2](#swift-42-1)
+      - [Swift 5](#swift-5-1)
   - [Architecture](#architecture)
   - [Using Mockingbird](#using-mockingbird)
     - [Defining a remote API](#defining-a-remote-api)
@@ -40,21 +44,36 @@ It draws inspiration from [Moya](https://github.com/Moya/Moya) and [Alamofire](h
 
 ## Installation
 
-At the moment only **Cocoapods** and **Swift Package Manager SPM** are supported, with support for *Carthage* comming soon.
-**Swift 4.x** and **Xcode 10.x** are required to build it.
+At the moment only **Cocoapods** and **Swift Package Manager SPM** are supported, with support for *Carthage* comming soon. **Mockingbird** provides two main versions, one with support for *Swift 4.2* which supports *iOS 9 and greater* and the other one with support for *Swift 5* which itself supports *iOS 10 and greater*. Both versions support *macOS from 10.12 onwards* Install the one your application needs.
+
+**Mockingbird supports Xcode 11 package manager**
 
 ### Cocoapods
 
 To install `Mockingird` using **Cocoapods** just add it to your project's `Podfile`:
 
+#### Swift 4.2
+
 ```bash
- pod 'Mockingbird-Swift'
+ pod 'Mockingbird-Swift', '~> 1.0'
 ```
 
 and if you want to use the **RxSwift** extensions add them:
 
 ```bash
-pod 'Mockingbird-Swift/RxSwift'
+pod 'Mockingbird-Swift/RxSwift', '~> 1.0'
+```
+
+#### Swift 5
+
+```bash
+ pod 'Mockingbird-Swift', '~> 2.0'
+```
+
+and if you want to use the **RxSwift** extensions add them:
+
+```bash
+pod 'Mockingbird-Swift/RxSwift', '~> 2.0'
 ```
 
 To use the library in your application please import the Swift module as follows:
@@ -67,9 +86,19 @@ import Mockingbird_Swift
 
 Just add `Mockingbird` as a dependency in your `Package.swift` file:
 
+#### Swift 4.2
+
 ```swift
 dependencies: [
     .package(url: "https://github.com/jandro-es/Mockingbird", .upToNextMajor(from: "1.0.0"))
+]
+```
+
+#### Swift 5
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/jandro-es/Mockingbird", .upToNextMajor(from: "2.0.0"))
 ]
 ```
 
