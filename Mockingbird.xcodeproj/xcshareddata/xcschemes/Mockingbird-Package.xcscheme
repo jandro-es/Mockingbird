@@ -40,25 +40,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      codeCoverageEnabled = "YES"
-      onlyGenerateCoverageForSpecifiedTargets = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <CodeCoverageTargets>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "Mockingbird::Mockingbird"
-            BuildableName = "Mockingbird.framework"
-            BlueprintName = "Mockingbird"
-            ReferencedContainer = "container:Mockingbird.xcodeproj">
-         </BuildableReference>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "Mockingbird::RxMockingbird"
-            BuildableName = "RxMockingbird.framework"
-            BlueprintName = "RxMockingbird"
-            ReferencedContainer = "container:Mockingbird.xcodeproj">
-         </BuildableReference>
-      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">

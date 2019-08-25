@@ -21,7 +21,6 @@
 // THE SOFTWARE.
 
 import Foundation
-import enum Result.Result
 @testable import Mockingbird
 
 final class TestingMiddleware: MiddlewareType {

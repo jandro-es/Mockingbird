@@ -21,7 +21,6 @@
 // THE SOFTWARE.
 
 import Foundation
-import Result
 
 /// Possible states of the network activity
 ///
