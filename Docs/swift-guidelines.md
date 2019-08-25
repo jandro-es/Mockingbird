@@ -654,7 +654,7 @@ class SomeClass {
 
 Prefer creating named functions to custom operators.
 
-If you want to introduce a custom operator, make sure that you have a *very* good reason why you want to introduce a new operator into global scope as opposed to using some other construct and **always** discuss it with the rest of the team.
+If you want to introduce a custom operator, make sure that you have a *very* good reason why you want to introduce a new operator into global scope as opposed to using some other construct.
 
 You can override existing operators to support new types (especially `==`). However, your new definitions must preserve the semantics of the operator. For example, `==` must always test equality and return a boolean.
 
