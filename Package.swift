@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.1
 
 import PackageDescription
 
@@ -16,13 +16,13 @@ let package = Package(
             name: "Mockingbird",
             path: "Sources/Mockingbird",
             exclude: ["Tests", "Sources/Supporting Files", "Examples", "Docs", "images"]),
-        .testTarget(
-            name: "MockingbirdTests",
-            dependencies: ["Mockingbird"]),
         .target(
             name: "RxMockingbird",
             dependencies: ["Mockingbird", "RxSwift"],
             path: "Sources/RxMockingbird",
             exclude: ["Tests", "Sources/Supporting Files", "Examples", "Docs", "images"])
+        .testTarget(
+            name: "MockingbirdTests",
+            dependencies: ["Mockingbird", "RxMockingbird"]),
     ]
 )

@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "3CE6C8DD-D084-45A9-A08A-7D65A271CFDB",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:Mockingbird.xcodeproj",
+          "identifier" : "Mockingbird::Mockingbird",
+          "name" : "Mockingbird"
+        },
+        {
+          "containerPath" : "container:Mockingbird.xcodeproj",
+          "identifier" : "Mockingbird::RxMockingbird",
+          "name" : "RxMockingbird"
+        }
+      ]
+    },
+    "testExecutionOrdering" : "random"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Mockingbird.xcodeproj",
+        "identifier" : "Mockingbird::MockingbirdTests",
+        "name" : "MockingbirdTests"
+      }
+    }
+  ],
+  "version" : 1
+}
