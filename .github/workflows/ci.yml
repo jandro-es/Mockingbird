@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Resolve dependencies
-      run: swift resolve
+      run: swift package resolve
     - name: Generate Xcode project
       run: swift package generate-xcodeproj
     - name: Run tests iOS
