@@ -9,7 +9,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Run tests
-      run: swift test| xcpretty
-    - name: Build frameworks
-      run: swift build | xcpretty
+    - name: Resolve dependencies
+      run: swift resolve
+    - name: Generate Xcode project
+      run: swift package generate-xcodeproj
+    - name: Run tests iOS
+      run: xcodebuild -project 'Mockingbird.xcodeproj' -scheme 'Mockingbird-Package' -destination 'platform=iOS Simulator,name=iPhone 11' test | xcpretty
+    - name: Run tests macOS
+      run: xcodebuild -project 'Mockingbird.xcodeproj' -scheme 'Mockingbird-Package' -destination 'platform=macOS' test | xcpretty
+    - name: Build framework
+      run: swift build
