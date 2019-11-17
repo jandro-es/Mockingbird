@@ -18,7 +18,7 @@ let package = Package(
             exclude: ["Tests", "Sources/Supporting Files", "Examples", "Docs", "images"]),
         .testTarget(
             name: "MockingbirdTests",
-            dependencies: ["Mockingbird"]),
+            dependencies: ["Mockingbird", "RxMockingbird"]),
         .target(
             name: "RxMockingbird",
             dependencies: ["Mockingbird", "RxSwift"],
