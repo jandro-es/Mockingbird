@@ -1,6 +1,6 @@
 <img src="images/mockingbird-logo.png">
 
-![STATUS](https://github.com/actions/Mockingbird/workflows/ci/badge.svg) [![GitHub](https://img.shields.io/github/license/jandro-es/Mockingbird.svg)](https://github.com/jandro-es/Mockingbird/blob/master/LICENSE)  [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)  ![Cocoapods](https://img.shields.io/cocoapods/v/Mockingbird-Swift.svg)  ![Cocoapods platforms](https://img.shields.io/cocoapods/p/Mockingbird-Swift.svg)
+![Build](https://github.com/jandro-es/Mockingbird/workflows/CI/badge.svg) [![GitHub](https://img.shields.io/github/license/jandro-es/Mockingbird.svg)](https://github.com/jandro-es/Mockingbird/blob/master/LICENSE)  [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)  ![Cocoapods](https://img.shields.io/cocoapods/v/Mockingbird-Swift.svg)  ![Cocoapods platforms](https://img.shields.io/cocoapods/p/Mockingbird-Swift.svg)
 
 # Mockingbird
 
