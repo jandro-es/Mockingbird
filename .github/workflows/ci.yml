@@ -1,0 +1,16 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: macOS-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run tests
+      run: |
+        swift test --enable-code-coverage 2>&1 | xcpretty
+    - name: Build framework
+      run: swift build
