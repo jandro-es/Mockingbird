@@ -1,0 +1,7 @@
+author: Filtercode Ltd
+author_url: https://github.com/jandro-es
+github_url: https://github.com/jandro-es/Mockingbird
+root_url: https://jandro-es.github.io/Mockingbird/
+module: Mockingbird
+output: docs
+theme: fullwidth
