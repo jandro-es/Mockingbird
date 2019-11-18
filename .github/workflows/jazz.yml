@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy_docs:
-    runs-on: 
+    runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v1
     - name: Publish Jazzy Docs
