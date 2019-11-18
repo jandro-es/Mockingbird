@@ -1,0 +1,1585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mockingbird Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/Mockingbird" class="dashAnchor"></a>
+
+    <a title="Mockingbird Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          Mockingbird Docs
+        </a>
+         (67% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/jandro-es/Mockingbird">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="dash-feed://https%3A%2F%2Fjandro%2Des%2Egithub%2Eio%2FMockingbird%2Fdocsets%2FMockingbird%2Exml">
+            <img class="header-icon" src="../img/dash.png"/>
+            Install in Dash
+          </a>
+        </p>
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">Mockingbird Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      Mockingbird Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/AccessTokenMiddleware.html">AccessTokenMiddleware</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MockURLProtocol.html">MockURLProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Mockingbird.html">Mockingbird</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Mockingbird/StubBehavior.html">– StubBehavior</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/NetworkActivityMiddleware.html">NetworkActivityMiddleware</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Request.html">Request</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/RequestOperation.html">RequestOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/Response.html">Response</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/AccessTokenType.html">AccessTokenType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/HTTPMethod.html">HTTPMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MockingbirdError.html">MockingbirdError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/MockingbirdError/ParameterEncodingFailureReason.html">– ParameterEncodingFailureReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/NetworkActivityStatus.html">NetworkActivityStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/RequestSampleResponse.html">RequestSampleResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/RequestType.html">RequestType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/RequestValidation.html">RequestValidation</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/URL.html">URL</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/AccessTokenAuthorizable.html">AccessTokenAuthorizable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MiddlewareType.html">MiddlewareType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/MockingbirdType.html">MockingbirdType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ParameterEncodingType.html">ParameterEncodingType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/RemoteServiceType.html">RemoteServiceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/RequestOperationType.html">RequestOperationType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/JSONEncoding.html">JSONEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/URLEncoding.html">URLEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/URLEncoding/Destination.html">– Destination</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/URLEncoding/ArrayEncoding.html">– ArrayEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/URLEncoding/BoolEncoding.html">– BoolEncoding</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:11Mockingbird24DownloadCompletionLambdaa">DownloadCompletionLambda</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:11Mockingbird11HTTPHeadersa">HTTPHeaders</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:11Mockingbird10Parametersa">Parameters</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>Mockingbird</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">class</span> <span class="kt">Mockingbird</span><span class="o">&lt;</span><span class="kt">RemoteService</span><span class="o">&gt;</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/MockingbirdType.html">MockingbirdType</a></span> <span class="k">where</span> <span class="kt">RemoteService</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/RemoteServiceType.html">RemoteServiceType</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Mockingbird implementation</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC12StubBehaviorO"></a>
+                    <a name="//apple_ref/swift/Enum/StubBehavior" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC12StubBehaviorO">StubBehavior</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Defines the possible behaviours for stubbing the request</p>
+
+<ul>
+<li>never: Never stub</li>
+<li>immediate: Stub with inmediate response</li>
+<li>delayed: Stub delaying the response the specified ammount of seconds</li>
+</ul>
+
+                        <a href="../Classes/Mockingbird/StubBehavior.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">StubBehavior</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC23EndpointToRequestLambdaa"></a>
+                    <a name="//apple_ref/swift/Alias/EndpointToRequestLambda" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC23EndpointToRequestLambdaa">EndpointToRequestLambda</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Typealias for a function that transforms an endpoint from <code>RemoteService</code> to a <code><a href="../Classes/Request.html">Request</a></code> object</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">EndpointToRequestLambda</span> <span class="o">=</span> <span class="p">(</span><span class="kt">RemoteService</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Request.html">Request</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC19RequestResultLambdaa"></a>
+                    <a name="//apple_ref/swift/Alias/RequestResultLambda" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC19RequestResultLambdaa">RequestResultLambda</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Typealias for a function that gets a <code>Result</code> object with an <code>URLRequest</code> and a <code><a href="../Enums/MockingbirdError.html">MockingbirdError</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">RequestResultLambda</span> <span class="o">=</span> <span class="p">(</span><span class="kt">Result</span><span class="o">&lt;</span><span class="kt">URLRequest</span><span class="p">,</span> <span class="kt"><a href="../Enums/MockingbirdError.html">MockingbirdError</a></span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC13RequestLambdaa"></a>
+                    <a name="//apple_ref/swift/Alias/RequestLambda" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC13RequestLambdaa">RequestLambda</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Typealias for a function that receives a <code><a href="../Classes/Request.html">Request</a></code> object and a <code><a href="../Classes/Mockingbird.html#/s:11MockingbirdAAC19RequestResultLambdaa">RequestResultLambda</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">RequestLambda</span> <span class="o">=</span> <span class="p">(</span><span class="kt"><a href="../Classes/Request.html">Request</a></span><span class="p">,</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Classes/Mockingbird.html#/s:11MockingbirdAAC19RequestResultLambdaa">RequestResultLambda</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC10StubLambdaa"></a>
+                    <a name="//apple_ref/swift/Alias/StubLambda" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC10StubLambdaa">StubLambda</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Typelias for a function that receives an endpoint from a <code>RemoteService</code> and
+returns the desired <code><a href="../Classes/Mockingbird/StubBehavior.html">StubBehavior</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">StubLambda</span> <span class="o">=</span> <span class="p">(</span><span class="kt">RemoteService</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Mockingbird/StubBehavior.html">StubBehavior</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC23endpointToRequestLambdayAA0D0Cxcvp"></a>
+                    <a name="//apple_ref/swift/Property/endpointToRequestLambda" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC23endpointToRequestLambdayAA0D0Cxcvp">endpointToRequestLambda</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Function that transforms an endpoint from a <code>RemoteService</code> into a <code><a href="../Classes/Request.html">Request</a></code> object</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">endpointToRequestLambda</span><span class="p">:</span> <span class="kt"><a href="../Classes/Mockingbird.html#/s:11MockingbirdAAC23EndpointToRequestLambdaa">EndpointToRequestLambda</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC13requestLambdayyAA7RequestC_ys6ResultOy10Foundation10URLRequestVAA0A5ErrorOGctcvp"></a>
+                    <a name="//apple_ref/swift/Property/requestLambda" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC13requestLambdayyAA7RequestC_ys6ResultOy10Foundation10URLRequestVAA0A5ErrorOGctcvp">requestLambda</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Function that receives a <code><a href="../Classes/Request.html">Request</a></code> object and a <code><a href="../Classes/Mockingbird.html#/s:11MockingbirdAAC19RequestResultLambdaa">RequestResultLambda</a></code> and decides which request
+to execute</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">requestLambda</span><span class="p">:</span> <span class="kt"><a href="../Classes/Mockingbird.html#/s:11MockingbirdAAC13RequestLambdaa">RequestLambda</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC10stubLambdayAB12StubBehaviorOyx_Gxcvp"></a>
+                    <a name="//apple_ref/swift/Property/stubLambda" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC10stubLambdayAB12StubBehaviorOyx_Gxcvp">stubLambda</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Function that receives an endpoint from a <code>RemoteService</code> and returns the desired <code><a href="../Classes/Mockingbird/StubBehavior.html">StubBehavior</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">stubLambda</span><span class="p">:</span> <span class="kt"><a href="../Classes/Mockingbird.html#/s:11MockingbirdAAC10StubLambdaa">StubLambda</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC20sessionConfigurationSo012NSURLSessionC0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/sessionConfiguration" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC20sessionConfigurationSo012NSURLSessionC0Cvp">sessionConfiguration</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stores the <code>URLSessionConfiguration</code> for this instance of <code>Mockingbird</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">sessionConfiguration</span><span class="p">:</span> <span class="kt">URLSessionConfiguration</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC7sessionSo12NSURLSessionCvp"></a>
+                    <a name="//apple_ref/swift/Property/session" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC7sessionSo12NSURLSessionCvp">session</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stores the <code>URLSession</code> for this instance of <code>Mockingbird</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">session</span><span class="p">:</span> <span class="kt">URLSession</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC10middlewareSayAA14MiddlewareType_pGvp"></a>
+                    <a name="//apple_ref/swift/Property/middleware" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC10middlewareSayAA14MiddlewareType_pGvp">middleware</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Collection of <code><a href="../Protocols/MiddlewareType.html">MiddlewareType</a></code> instances to hook into the lifecycle</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">middleware</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/MiddlewareType.html">MiddlewareType</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC15trackInProgressSbvp"></a>
+                    <a name="//apple_ref/swift/Property/trackInProgress" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC15trackInProgressSbvp">trackInProgress</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stores if <code>Mockingbird</code> should track the requests in progress or not</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">trackInProgress</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC18inProgressRequestsSDyAA7RequestCSayys6ResultOyAA8ResponseCAA0A5ErrorOGcGGvp"></a>
+                    <a name="//apple_ref/swift/Property/inProgressRequests" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC18inProgressRequestsSDyAA7RequestCSayys6ResultOyAA8ResponseCAA0A5ErrorOGcGGvp">inProgressRequests</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Collection of in progress <code>Requests</code>, it stores them as a dictionary of
+<code><a href="../Classes/Request.html">Request</a></code> and <code><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">internal(set)</span> <span class="k">var</span> <span class="nv">inProgressRequests</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/Request.html">Request</a></span> <span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></span><span class="p">]]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC23endpointToRequestLambda07requestE004stubE05queue20sessionConfiguration0I12TaskDelegate10middleware15trackInProgressAByxGAA0D0Cxc_yAM_ys6ResultOy10Foundation10URLRequestVAA0A5ErrorOGctcAB12StubBehaviorOyx_GxcSo012OS_dispatch_H0CSgSo012NSURLSessionJ0CSo0ykL0_pSgSayAA14MiddlewareType_pGSbtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(endpointToRequestLambda:requestLambda:stubLambda:queue:sessionConfiguration:sessionTaskDelegate:middleware:trackInProgress:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC23endpointToRequestLambda07requestE004stubE05queue20sessionConfiguration0I12TaskDelegate10middleware15trackInProgressAByxGAA0D0Cxc_yAM_ys6ResultOy10Foundation10URLRequestVAA0A5ErrorOGctcAB12StubBehaviorOyx_GxcSo012OS_dispatch_H0CSgSo012NSURLSessionJ0CSo0ykL0_pSgSayAA14MiddlewareType_pGSbtcfc">init(endpointToRequestLambda:requestLambda:stubLambda:queue:sessionConfiguration:sessionTaskDelegate:middleware:trackInProgress:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialises an instance of <code>Mockingbird</code> for the generic <code><a href="../Protocols/RemoteServiceType.html">RemoteServiceType</a></code>
+with the given values and a series of defaults.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">endpointToRequestLambda</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Classes/Mockingbird.html#/s:11MockingbirdAAC23EndpointToRequestLambdaa">EndpointToRequestLambda</a></span> <span class="o">=</span> <span class="kt">Mockingbird</span><span class="o">.</span><span class="n">defaultRequestMapping</span><span class="p">,</span>
+            <span class="nv">requestLambda</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Classes/Mockingbird.html#/s:11MockingbirdAAC13RequestLambdaa">RequestLambda</a></span> <span class="o">=</span> <span class="kt">Mockingbird</span><span class="o">.</span><span class="n">defaultRequestMapping</span><span class="p">,</span>
+            <span class="nv">stubLambda</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Classes/Mockingbird.html#/s:11MockingbirdAAC10StubLambdaa">StubLambda</a></span> <span class="o">=</span> <span class="kt">Mockingbird</span><span class="o">.</span><span class="n">neverStub</span><span class="p">,</span>
+            <span class="nv">queue</span><span class="p">:</span> <span class="kt">DispatchQueue</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+            <span class="nv">sessionConfiguration</span><span class="p">:</span> <span class="kt">URLSessionConfiguration</span> <span class="o">=</span> <span class="kt">Mockingbird</span><span class="o">.</span><span class="nf">defaultConfiguration</span><span class="p">(),</span>
+            <span class="nv">sessionTaskDelegate</span><span class="p">:</span> <span class="kt">URLSessionTaskDelegate</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+            <span class="nv">middleware</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/MiddlewareType.html">MiddlewareType</a></span><span class="p">]</span> <span class="o">=</span> <span class="p">[],</span>
+            <span class="nv">trackInProgress</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>endpointToRequestLambda</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The function used to transform an endpoint from <code>RemoteService</code> to a <code><a href="../Classes/Request.html">Request</a></code> object,
+<code>Mockingbird.defaultRequestMapping</code> by default</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>requestLambda</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The function used to decide which request to perform from a <code><a href="../Classes/Request.html">Request</a></code> object and a <code><a href="../Classes/Mockingbird.html#/s:11MockingbirdAAC19RequestResultLambdaa">RequestResultLambda</a></code>,
+<code>Mockingbird.defaultRequestMapping</code> by default</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>stubLambda</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The function that decides the stubbing behaviour, <code>Mockingbird.neverStub</code> by default</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>DispatchQueue</code> to use for execution of the <code><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></code>, nil (main) by default</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sessionConfiguration</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>URLSessionConfiguration</code> to use, <code>default</code> by default</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>sessionTaskDelegate</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The object to act as <code>URLSessionTaskDelegate</code>, nil by default</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>middleware</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A collection of <code><a href="../Protocols/MiddlewareType.html">MiddlewareType</a></code> to hook into the lifecycle, empty by default</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>trackInProgress</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>If the requests in progress should be tracked or not, false by default</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC7requestyAA7RequestCxF"></a>
+                    <a name="//apple_ref/swift/Method/request(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC7requestyAA7RequestCxF">request(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a <code><a href="../Classes/Request.html">Request</a></code> object from an endpoint in a <code>RemoteService</code> type</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">open</span> <span class="kd">func</span> <span class="nf">request</span><span class="p">(</span><span class="n">_</span> <span class="nv">endpoint</span><span class="p">:</span> <span class="kt">RemoteService</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Request.html">Request</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>endpoint</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The endpoint to transform into a <code><a href="../Classes/Request.html">Request</a></code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>The <code><a href="../Classes/Request.html">Request</a></code> object computed after applying the <code><a href="../Classes/Mockingbird.html#/s:11MockingbirdAAC23endpointToRequestLambdayAA0D0Cxcvp">endpointToRequestLambda</a></code> to the endpoint</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC7request_5queue10completionAA20RequestOperationType_px_So012OS_dispatch_C0CSgys6ResultOyAA8ResponseCAA0A5ErrorOGctF"></a>
+                    <a name="//apple_ref/swift/Method/request(_:queue:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC7request_5queue10completionAA20RequestOperationType_px_So012OS_dispatch_C0CSgys6ResultOyAA8ResponseCAA0A5ErrorOGctF">request(_:queue:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Default method to perform a request. It needs an endpoint from a <code>RemoteService</code> and a <code><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></code> as minimum.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">request</span><span class="p">(</span><span class="n">_</span> <span class="nv">endpoint</span><span class="p">:</span> <span class="kt">RemoteService</span><span class="p">,</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt">DispatchQueue</span><span class="p">?</span> <span class="o">=</span> <span class="o">.</span><span class="k">none</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/RequestOperationType.html">RequestOperationType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>endpoint</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The endpoint from a <code>RemoteService</code> to execute</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>DispatchQueue</code> to execute the <code><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></code> in, by default is nil</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></code> to execute when the process ends</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <code><a href="../Protocols/RequestOperationType.html">RequestOperationType</a></code> object that can be used to cancel the active request</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC11stubRequest_03urlC05queue10completion7request0B8BehaviorAA0C9OperationCx_10Foundation10URLRequestVSo012OS_dispatch_E0CSgys6ResultOyAA8ResponseCAA0A5ErrorOGcAA0C0CAB04StubH0Oyx_GtF"></a>
+                    <a name="//apple_ref/swift/Method/stubRequest(_:urlRequest:queue:completion:request:stubBehavior:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC11stubRequest_03urlC05queue10completion7request0B8BehaviorAA0C9OperationCx_10Foundation10URLRequestVSo012OS_dispatch_E0CSgys6ResultOyAA8ResponseCAA0A5ErrorOGcAA0C0CAB04StubH0Oyx_GtF">stubRequest(_:urlRequest:queue:completion:request:stubBehavior:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Function used to stub a request. Based on the input parameters and the stub behaviour it will
+stub the reqeust and return the stubbed response from the Stubbing function of the endpoint</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">open</span> <span class="kd">func</span> <span class="nf">stubRequest</span><span class="p">(</span><span class="n">_</span> <span class="nv">endpoint</span><span class="p">:</span> <span class="kt">RemoteService</span><span class="p">,</span> <span class="nv">urlRequest</span><span class="p">:</span> <span class="kt">URLRequest</span><span class="p">,</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt">DispatchQueue</span><span class="p">?,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></span><span class="p">,</span> <span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/Request.html">Request</a></span><span class="p">,</span> <span class="nv">stubBehavior</span><span class="p">:</span> <span class="kt"><a href="../Classes/Mockingbird/StubBehavior.html">StubBehavior</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/RequestOperation.html">RequestOperation</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>endpoint</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The endpoint of the <code>RemoteService</code> to stub</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>urlRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The generated <code>URLRequest</code> to stub</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>DispatchQueue</code> to execute the <code><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></code> in</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></code> to execute on completion</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/Request.html">Request</a></code> object we want to stub</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>stubBehavior</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/Mockingbird/StubBehavior.html">StubBehavior</a></code> to use</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <code><a href="../Classes/RequestOperation.html">RequestOperation</a></code> object that can be used to cancel the active request</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC19mapResponseToResult_10urlRequest16validStatusCodes4data5errors0E0OyAA0C0CAA0A5ErrorOGSo13NSURLResponseCSg_10Foundation10URLRequestVSgSaySiGAR4DataVSgs0M0_pSgtFZ"></a>
+                    <a name="//apple_ref/swift/Method/mapResponseToResult(_:urlRequest:validStatusCodes:data:error:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC19mapResponseToResult_10urlRequest16validStatusCodes4data5errors0E0OyAA0C0CAA0A5ErrorOGSo13NSURLResponseCSg_10Foundation10URLRequestVSgSaySiGAR4DataVSgs0M0_pSgtFZ">mapResponseToResult(_:urlRequest:validStatusCodes:data:error:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Static method to map a <code>Foundation</code> <code>URLResponse</code> into a <code>Result&lt;Response, MockingbirdError&gt;</code> object. During the mapping it will
+validate the response according to the specified status codes.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">mapResponseToResult</span><span class="p">(</span><span class="n">_</span> <span class="nv">response</span><span class="p">:</span> <span class="kt">URLResponse</span><span class="p">?,</span> <span class="nv">urlRequest</span><span class="p">:</span> <span class="kt">URLRequest</span><span class="p">?,</span> <span class="nv">validStatusCodes</span><span class="p">:</span> <span class="p">[</span><span class="kt">Int</span><span class="p">],</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Result</span><span class="o">&lt;</span><span class="kt"><a href="../Classes/Response.html">Response</a></span><span class="p">,</span> <span class="kt"><a href="../Enums/MockingbirdError.html">MockingbirdError</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>response</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>URLResponse</code> returned</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>urlRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The original <code>URLRequest</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>validStatusCodes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The collection of valid status codes for validation</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>data</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The optional returned <code>Data</code> object</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Any possible returned <code>Swift.Error</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An object of type <code>Result&lt;Response, MockingbirdError&gt;</code> resulted from the mapping</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC21defaultRequestMapping3forAA0C0Cx_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/defaultRequestMapping(for:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC21defaultRequestMapping3forAA0C0Cx_tFZ">defaultRequestMapping(for:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Class method to generate a <code>default</code> mapping from and endpoint of a
+<code><a href="../Protocols/RemoteServiceType.html">RemoteServiceType</a></code> definition into a <code><a href="../Classes/Request.html">Request</a></code> object</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">defaultRequestMapping</span><span class="p">(</span><span class="k">for</span> <span class="nv">endpoint</span><span class="p">:</span> <span class="kt">RemoteService</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Request.html">Request</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>endpoint</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The endpoint of a <code><a href="../Protocols/RemoteServiceType.html">RemoteServiceType</a></code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <code><a href="../Classes/Request.html">Request</a></code> object mapped from said endpoint</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC21defaultRequestMapping3for6lambdayAA0C0C_ys6ResultOy10Foundation10URLRequestVAA0A5ErrorOGXEtFZ"></a>
+                    <a name="//apple_ref/swift/Method/defaultRequestMapping(for:lambda:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC21defaultRequestMapping3for6lambdayAA0C0C_ys6ResultOy10Foundation10URLRequestVAA0A5ErrorOGXEtFZ">defaultRequestMapping(for:lambda:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Class method to generate a <code>default</code> mapping from a <code><a href="../Classes/Request.html">Request</a></code> applying the
+passed lambda and mapping the thrown error into a <code><a href="../Classes/Mockingbird.html#/s:11MockingbirdAAC19RequestResultLambdaa">RequestResultLambda</a></code> in case
+it fails.</p>
+<div class="aside aside-throws">
+    <p class="aside-title">Throws</p>
+    <ul>
+<li>MockingbirdError.requestMapping</li>
+<li>MockingbirdError.parameterEncoding</li>
+<li>MockingbirdError.network</li>
+</ul>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">defaultRequestMapping</span><span class="p">(</span><span class="k">for</span> <span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/Request.html">Request</a></span><span class="p">,</span> <span class="nv">lambda</span><span class="p">:</span> <span class="kt"><a href="../Classes/Mockingbird.html#/s:11MockingbirdAAC19RequestResultLambdaa">RequestResultLambda</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/Request.html">Request</a></code> to map</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>lambda</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/Mockingbird.html#/s:11MockingbirdAAC19RequestResultLambdaa">RequestResultLambda</a></code> to apply to the <code><a href="../Classes/Request.html">Request</a></code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC20defaultConfigurationSo012NSURLSessionC0CyFZ"></a>
+                    <a name="//apple_ref/swift/Method/defaultConfiguration()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC20defaultConfigurationSo012NSURLSessionC0CyFZ">defaultConfiguration()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The default <code>URLSessionConfiguration</code> for <code>Mockingbird</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">defaultConfiguration</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">URLSessionConfiguration</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>URLSessionConfiguration.default</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Internal%20Typealias"></a>
+                <a name="//apple_ref/swift/Section/Internal Typealias" class="dashAnchor"></a>
+                <a href="#/Internal%20Typealias">
+                  <h3 class="section-name">Internal Typealias</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC15requestStandard_5queue10completionAA20RequestOperationType_px_So012OS_dispatch_D0CSgys6ResultOyAA8ResponseCAA0A5ErrorOGctF"></a>
+                    <a name="//apple_ref/swift/Method/requestStandard(_:queue:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC15requestStandard_5queue10completionAA20RequestOperationType_px_So012OS_dispatch_D0CSgys6ResultOyAA8ResponseCAA0A5ErrorOGctF">requestStandard(_:queue:completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method to execute a standard request from a given <code>RemoteService</code> endpoint</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">requestStandard</span><span class="p">(</span><span class="n">_</span> <span class="nv">endpoint</span><span class="p">:</span> <span class="kt">RemoteService</span><span class="p">,</span> <span class="nv">queue</span><span class="p">:</span> <span class="kt">DispatchQueue</span><span class="p">?,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/RequestOperationType.html">RequestOperationType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>endpoint</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The endpoint from a <code>RemoteService</code> to use</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>queue</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code>DispatchQueue</code> to execute the <code><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></code> in</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></code> to execute in completion</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <code><a href="../Protocols/RequestOperationType.html">RequestOperationType</a></code> object that can be used to cancel the active request</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC16cancelCompletion_8endpointyys6ResultOyAA8ResponseCAA0A5ErrorOGXE_xtF"></a>
+                    <a name="//apple_ref/swift/Method/cancelCompletion(_:endpoint:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC16cancelCompletion_8endpointyys6ResultOyAA8ResponseCAA0A5ErrorOGXE_xtF">cancelCompletion(_:endpoint:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Cancels a <code><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></code>, returning an error of type <code>NSURLErrorCancelled</code> and calling the proper
+<code><a href="../Protocols/MiddlewareType.html">MiddlewareType</a></code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">cancelCompletion</span><span class="p">(</span><span class="n">_</span> <span class="nv">completion</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></span><span class="p">,</span> <span class="nv">endpoint</span><span class="p">:</span> <span class="kt">RemoteService</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></code> to cancel</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>endpoint</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The endpoint from the <code>RemoteService</code> that you want to cancel</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC12stubFunction_3for10completion7request10middleware10urlRequestyycAA0I9OperationC_xys6ResultOyAA8ResponseCAA0A5ErrorOGcAA0I0CSayAA14MiddlewareType_pG10Foundation10URLRequestVtF"></a>
+                    <a name="//apple_ref/swift/Method/stubFunction(_:for:completion:request:middleware:urlRequest:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC12stubFunction_3for10completion7request10middleware10urlRequestyycAA0I9OperationC_xys6ResultOyAA8ResponseCAA0A5ErrorOGcAA0I0CSayAA14MiddlewareType_pG10Foundation10URLRequestVtF">stubFunction(_:for:completion:request:middleware:urlRequest:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Method that generates and returns a stub function from the given parameters</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">func</span> <span class="nf">stubFunction</span><span class="p">(</span><span class="n">_</span> <span class="nv">requestOperation</span><span class="p">:</span> <span class="kt"><a href="../Classes/RequestOperation.html">RequestOperation</a></span><span class="p">,</span> <span class="k">for</span> <span class="nv">endpoint</span><span class="p">:</span> <span class="kt">RemoteService</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt"><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></span><span class="p">,</span> <span class="nv">request</span><span class="p">:</span> <span class="kt"><a href="../Classes/Request.html">Request</a></span><span class="p">,</span> <span class="nv">middleware</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Protocols/MiddlewareType.html">MiddlewareType</a></span><span class="p">],</span> <span class="nv">urlRequest</span><span class="p">:</span> <span class="kt">URLRequest</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>requestOperation</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Classes/RequestOperation.html">RequestOperation</a></code> that we want to stub</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>endpoint</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The endpoint from the <code>RemoteService</code> that we want to stub</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The <code><a href="../Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a></code> to execute on completion</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>request</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The generated <code><a href="../Classes/Request.html">Request</a></code> object</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>middleware</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The collection of <code><a href="../Protocols/MiddlewareType.html">MiddlewareType</a></code> to use</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>urlRequest</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The generated <code>URLRequest</code></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Internal%20Typealias2"></a>
+                <a name="//apple_ref/swift/Section/Internal Typealias" class="dashAnchor"></a>
+                <a href="#/Internal%20Typealias2">
+                  <h3 class="section-name">Internal Typealias</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC9neverStubyAB0C8BehaviorOyx_GAA17RemoteServiceType_pFZ"></a>
+                    <a name="//apple_ref/swift/Method/neverStub(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC9neverStubyAB0C8BehaviorOyx_GAA17RemoteServiceType_pFZ">neverStub(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Class method to set <code><a href="../Classes/Mockingbird/StubBehavior.html">StubBehavior</a></code> to <code>.never</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">neverStub</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="kt"><a href="../Protocols/RemoteServiceType.html">RemoteServiceType</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Mockingbird</span><span class="o">.</span><span class="kt"><a href="../Classes/Mockingbird/StubBehavior.html">StubBehavior</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <code><a href="../Classes/Mockingbird/StubBehavior.html">Mockingbird.StubBehavior</a></code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC15immediatelyStubyAB0C8BehaviorOyx_GAA17RemoteServiceType_pFZ"></a>
+                    <a name="//apple_ref/swift/Method/immediatelyStub(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC15immediatelyStubyAB0C8BehaviorOyx_GAA17RemoteServiceType_pFZ">immediatelyStub(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Class method to set the <code><a href="../Classes/Mockingbird/StubBehavior.html">StubBehavior</a></code> to <code>.immediate</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">immediatelyStub</span><span class="p">(</span><span class="nv">_</span><span class="p">:</span> <span class="kt"><a href="../Protocols/RemoteServiceType.html">RemoteServiceType</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Mockingbird</span><span class="o">.</span><span class="kt"><a href="../Classes/Mockingbird/StubBehavior.html">StubBehavior</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <code><a href="../Classes/Mockingbird/StubBehavior.html">Mockingbird.StubBehavior</a></code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:11MockingbirdAAC11delayedStubyAB0C8BehaviorOyx_GAA17RemoteServiceType_pcSdFZ"></a>
+                    <a name="//apple_ref/swift/Method/delayedStub(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:11MockingbirdAAC11delayedStubyAB0C8BehaviorOyx_GAA17RemoteServiceType_pcSdFZ">delayedStub(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Class method to set the <code><a href="../Classes/Mockingbird/StubBehavior.html">StubBehavior</a></code> to <code>.delayed</code> with the given ammount of seconds</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">delayedStub</span><span class="p">(</span><span class="n">_</span> <span class="nv">seconds</span><span class="p">:</span> <span class="kt">TimeInterval</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">(</span><span class="kt"><a href="../Protocols/RemoteServiceType.html">RemoteServiceType</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Mockingbird</span><span class="o">.</span><span class="kt"><a href="../Classes/Mockingbird/StubBehavior.html">StubBehavior</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>seconds</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The ammount of seconds to delay the response</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A <code><a href="../Classes/Mockingbird/StubBehavior.html">Mockingbird.StubBehavior</a></code></p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2019 <a class="link" href="https://github.com/jandro-es" target="_blank" rel="external">Filtercode Ltd</a>. All rights reserved. (Last updated: 2019-11-18)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.12.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

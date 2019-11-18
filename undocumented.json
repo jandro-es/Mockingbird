@@ -1,0 +1,460 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/HTTPMethod.swift",
+      "line": 34,
+      "symbol": "HTTPMethod.get",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/HTTPMethod.swift",
+      "line": 35,
+      "symbol": "HTTPMethod.post",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/HTTPMethod.swift",
+      "line": 36,
+      "symbol": "HTTPMethod.patch",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/HTTPMethod.swift",
+      "line": 37,
+      "symbol": "HTTPMethod.put",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/HTTPMethod.swift",
+      "line": 38,
+      "symbol": "HTTPMethod.delete",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/HTTPMethod.swift",
+      "line": 39,
+      "symbol": "HTTPMethod.head",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Middleware/AccessTokenMiddleware.swift",
+      "line": 42,
+      "symbol": "AccessTokenType.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Middleware/AccessTokenMiddleware.swift",
+      "line": 43,
+      "symbol": "AccessTokenType.basic",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Middleware/AccessTokenMiddleware.swift",
+      "line": 44,
+      "symbol": "AccessTokenType.bearer",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Middleware/AccessTokenMiddleware.swift",
+      "line": 45,
+      "symbol": "AccessTokenType.custom(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Middleware/AccessTokenMiddleware.swift",
+      "line": 47,
+      "symbol": "AccessTokenType.value",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Middleware/NetworkActivityMiddleware.swift",
+      "line": 30,
+      "symbol": "NetworkActivityStatus.began",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Middleware/NetworkActivityMiddleware.swift",
+      "line": 30,
+      "symbol": "NetworkActivityStatus.ended",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Middleware/NetworkActivityMiddleware.swift",
+      "line": 33,
+      "symbol": "NetworkActivityMiddleware",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Middleware/NetworkActivityMiddleware.swift",
+      "line": 42,
+      "symbol": "NetworkActivityMiddleware.init(networkActivityLambda:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockURLProtocol.swift",
+      "line": 25,
+      "symbol": "MockURLProtocol",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockURLProtocol.swift",
+      "line": 27,
+      "symbol": "MockURLProtocol.requestHandler",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockURLProtocol.swift",
+      "line": 29,
+      "symbol": "MockURLProtocol.canInit(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockURLProtocol.swift",
+      "line": 33,
+      "symbol": "MockURLProtocol.canonicalRequest(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockURLProtocol.swift",
+      "line": 37,
+      "symbol": "MockURLProtocol.startLoading()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockURLProtocol.swift",
+      "line": 51,
+      "symbol": "MockURLProtocol.stopLoading()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Mockingbird.swift",
+      "line": 27,
+      "symbol": "HTTPHeaders",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Mockingbird.swift",
+      "line": 28,
+      "symbol": "CompletionLambda",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Mockingbird.swift",
+      "line": 29,
+      "symbol": "DownloadCompletionLambda",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Mockingbird.swift",
+      "line": 38,
+      "symbol": "MockingbirdType.RemoteService",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Mockingbird.swift",
+      "line": 61,
+      "symbol": "Mockingbird.StubBehavior.delayed(seconds:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Mockingbird.swift",
+      "line": 61,
+      "symbol": "Mockingbird.StubBehavior.immediate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Mockingbird.swift",
+      "line": 61,
+      "symbol": "Mockingbird.StubBehavior.never",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockingbirdError.swift",
+      "line": 39,
+      "symbol": "MockingbirdError.ParameterEncodingFailureReason",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockingbirdError.swift",
+      "line": 40,
+      "symbol": "MockingbirdError.ParameterEncodingFailureReason.missingURL",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockingbirdError.swift",
+      "line": 41,
+      "symbol": "MockingbirdError.ParameterEncodingFailureReason.jsonEncodingFailed(error:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockingbirdError.swift",
+      "line": 46,
+      "symbol": "MockingbirdError.jsonMapping(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockingbirdError.swift",
+      "line": 48,
+      "symbol": "MockingbirdError.stringMapping(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockingbirdError.swift",
+      "line": 52,
+      "symbol": "MockingbirdError.decodableMapping(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockingbirdError.swift",
+      "line": 56,
+      "symbol": "MockingbirdError.encodableMapping(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockingbirdError.swift",
+      "line": 60,
+      "symbol": "MockingbirdError.invalidStatusCode(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockingbirdError.swift",
+      "line": 62,
+      "symbol": "MockingbirdError.network(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockingbirdError.swift",
+      "line": 66,
+      "symbol": "MockingbirdError.requestMapping(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/MockingbirdError.swift",
+      "line": 68,
+      "symbol": "MockingbirdError.parameterEncoding(reason:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/ParameterEncodingType.swift",
+      "line": 25,
+      "symbol": "Parameters",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/ParameterEncodingType.swift",
+      "line": 47,
+      "symbol": "URLEncoding",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/ParameterEncodingType.swift",
+      "line": 56,
+      "symbol": "URLEncoding.Destination.httpBody",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/ParameterEncodingType.swift",
+      "line": 56,
+      "symbol": "URLEncoding.Destination.methodDependent",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/ParameterEncodingType.swift",
+      "line": 56,
+      "symbol": "URLEncoding.Destination.queryString",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/ParameterEncodingType.swift",
+      "line": 65,
+      "symbol": "URLEncoding.ArrayEncoding.brackets",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/ParameterEncodingType.swift",
+      "line": 65,
+      "symbol": "URLEncoding.ArrayEncoding.noBrackets",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/ParameterEncodingType.swift",
+      "line": 82,
+      "symbol": "URLEncoding.BoolEncoding.literal",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/ParameterEncodingType.swift",
+      "line": 82,
+      "symbol": "URLEncoding.BoolEncoding.numeric",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Request.swift",
+      "line": 50,
+      "symbol": "Request.init(url:sampleResponse:method:requestType:headers:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/RequestType.swift",
+      "line": 38,
+      "symbol": "RequestType.plain",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/RequestType.swift",
+      "line": 40,
+      "symbol": "RequestType.data(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/RequestType.swift",
+      "line": 42,
+      "symbol": "RequestType.JSONEncodable(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/RequestType.swift",
+      "line": 44,
+      "symbol": "RequestType.customJSONEncodable(_:encoder:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/RequestType.swift",
+      "line": 46,
+      "symbol": "RequestType.parameters(parameters:encoding:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/RequestType.swift",
+      "line": 48,
+      "symbol": "RequestType.compositeData(bodyData:urlParameters:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/RequestType.swift",
+      "line": 50,
+      "symbol": "RequestType.compositeParameters(bodyParameters:bodyEncoding:urlParameters:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/RequestType.swift",
+      "line": 52,
+      "symbol": "RequestType.download(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/RequestType.swift",
+      "line": 54,
+      "symbol": "RequestType.downloadParameters(parameters:encoding:destination:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/RequestValidation.swift",
+      "line": 33,
+      "symbol": "RequestValidation.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/RequestValidation.swift",
+      "line": 35,
+      "symbol": "RequestValidation.successCodes",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/RequestValidation.swift",
+      "line": 37,
+      "symbol": "RequestValidation.successAndRedirectCodes",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/RequestValidation.swift",
+      "line": 39,
+      "symbol": "RequestValidation.customCodes(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Response.swift",
+      "line": 32,
+      "symbol": "RequestSampleResponse.networkResponse(statusCode:data:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Response.swift",
+      "line": 34,
+      "symbol": "RequestSampleResponse.response(response:data:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird/Sources/Mockingbird/Response.swift",
+      "line": 36,
+      "symbol": "RequestSampleResponse.networkError(error:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/runners/2.160.2/work/Mockingbird/Mockingbird"
+}

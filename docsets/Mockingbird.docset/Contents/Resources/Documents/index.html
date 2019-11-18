@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mockingbird  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+    <script src="js/lunr.min.js" defer></script>
+    <script src="js/typeahead.jquery.js" defer></script>
+    <script src="js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+
+    <a title="Mockingbird  Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="index.html">
+          Mockingbird Docs
+        </a>
+         (67% documented)
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/jandro-es/Mockingbird">
+            <img class="header-icon" src="img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="dash-feed://https%3A%2F%2Fjandro%2Des%2Egithub%2Eio%2FMockingbird%2Fdocsets%2FMockingbird%2Exml">
+            <img class="header-icon" src="img/dash.png"/>
+            Install in Dash
+          </a>
+        </p>
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="index.html">Mockingbird Reference</a>
+      <img class="carat" src="img/carat.png" />
+      Mockingbird  Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/AccessTokenMiddleware.html">AccessTokenMiddleware</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/MockURLProtocol.html">MockURLProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Mockingbird.html">Mockingbird</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Mockingbird/StubBehavior.html">– StubBehavior</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/NetworkActivityMiddleware.html">NetworkActivityMiddleware</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Request.html">Request</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/RequestOperation.html">RequestOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Classes/Response.html">Response</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/AccessTokenType.html">AccessTokenType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/HTTPMethod.html">HTTPMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MockingbirdError.html">MockingbirdError</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/MockingbirdError/ParameterEncodingFailureReason.html">– ParameterEncodingFailureReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/NetworkActivityStatus.html">NetworkActivityStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/RequestSampleResponse.html">RequestSampleResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/RequestType.html">RequestType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Enums/RequestValidation.html">RequestValidation</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Extensions/URL.html">URL</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/AccessTokenAuthorizable.html">AccessTokenAuthorizable</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MiddlewareType.html">MiddlewareType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/MockingbirdType.html">MockingbirdType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/ParameterEncodingType.html">ParameterEncodingType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/RemoteServiceType.html">RemoteServiceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Protocols/RequestOperationType.html">RequestOperationType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/JSONEncoding.html">JSONEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/URLEncoding.html">URLEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/URLEncoding/Destination.html">– Destination</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/URLEncoding/ArrayEncoding.html">– ArrayEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Structs/URLEncoding/BoolEncoding.html">– BoolEncoding</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:11Mockingbird16CompletionLambdaa">CompletionLambda</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:11Mockingbird24DownloadCompletionLambdaa">DownloadCompletionLambda</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:11Mockingbird11HTTPHeadersa">HTTPHeaders</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="Typealiases.html#/s:11Mockingbird10Parametersa">Parameters</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            
+            <p><img src="images/mockingbird-logo.png"></p>
+
+<p><img src="https://github.com/jandro-es/Mockingbird/workflows/CI/badge.svg" alt="Build"> <a href="https://github.com/jandro-es/Mockingbird/blob/master/LICENSE"><img src="https://img.shields.io/github/license/jandro-es/Mockingbird.svg" alt="GitHub"></a>  <a href="https://github.com/apple/swift-package-manager"><img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg" alt="Swift Package Manager compatible"></a>  <img src="https://img.shields.io/cocoapods/v/Mockingbird-Swift.svg" alt="Cocoapods">  <img src="https://img.shields.io/cocoapods/p/Mockingbird-Swift.svg" alt="Cocoapods platforms"></p>
+<h1 id='mockingbird' class='heading'>Mockingbird</h1>
+
+<p><strong>Mockingbird</strong> is a <strong>N</strong>etwork <strong>A</strong>bstraction <strong>L</strong>ayer <em>(NAL)</em> written in swift leveraging the power and versatility of <em>Foundation&rsquo;s</em> <strong>URLSession</strong>. It&rsquo;s compatible with <strong>iOS</strong> version <em>10</em> or greater and <strong>macOS</strong> version <em>10.13</em> or greater.</p>
+
+<p>It draws inspiration from <a href="https://github.com/Moya/Moya">Moya</a> and <a href="https://github.com/Alamofire/Alamofire">Alamofire</a> with a focus in easier integration and unit testing of the network layer.</p>
+<h2 id='table-of-contents' class='heading'>Table of contents</h2>
+
+<ul>
+<li><a href="#mockingbird">Mockingbird</a>
+
+<ul>
+<li><a href="#table-of-contents">Table of contents</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#cocoapods">Cocoapods</a>
+
+<ul>
+<li><a href="#swift-42">Swift 4.2</a></li>
+<li><a href="#swift-5">Swift 5</a></li>
+</ul></li>
+<li><a href="#swift-package-manager">Swift Package Manager</a>
+
+<ul>
+<li><a href="#swift-42-1">Swift 4.2</a></li>
+<li><a href="#swift-5-1">Swift 5</a></li>
+</ul></li>
+<li><a href="#architecture">Architecture</a></li>
+<li><a href="#using-mockingbird">Using Mockingbird</a></li>
+<li><a href="#defining-a-remote-api">Defining a remote API</a>
+
+<ul>
+<li><a href="#baseurl">baseURL</a></li>
+<li><a href="#path">path</a></li>
+<li><a href="#method">method</a></li>
+<li><a href="#requesttype">requestType</a></li>
+<li><a href="#testdata">testData</a></li>
+<li><a href="#validation">validation</a></li>
+<li><a href="#headers">headers</a></li>
+</ul></li>
+<li><a href="#initialising-a-mockingbird-instance">Initialising a Mockingbird instance</a></li>
+<li><a href="#requesting-data">Requesting data</a>
+
+<ul>
+<li><a href="#using-closures">Using closures</a></li>
+<li><a href="#using-rxswift">Using RxSwift</a></li>
+</ul></li>
+<li><a href="#middleware">Middleware</a>
+
+<ul>
+<li><a href="#authentication-token-middleware">Authentication Token Middleware</a></li>
+<li><a href="#network-activity-middleware">Network Activity Middleware</a></li>
+</ul></li>
+<li><a href="#logging">Logging</a></li>
+<li><a href="#comming-soon">Comming soon</a></li>
+<li><a href="#contributing">Contributing</a></li>
+<li><a href="#installing-the-project">Installing the project</a></li>
+<li><a href="#license">License</a></li>
+</ul></li>
+</ul>
+<h2 id='installation' class='heading'>Installation</h2>
+
+<p>At the moment only <strong>Cocoapods</strong> and <strong>Swift Package Manager SPM</strong> are supported, with support for <em>Carthage</em> comming soon. <strong>Mockingbird</strong> provides two main versions, one with support for <em>Swift 4.2</em> which supports <em>iOS 9 and greater</em> and the other one with support for <em>Swift 5</em> which itself supports <em>iOS 10 and greater</em>. Both versions support <em>macOS from 10.12 onwards</em> Install the one your application needs.</p>
+
+<p><strong>Mockingbird supports Xcode 11 package manager</strong></p>
+<h3 id='cocoapods' class='heading'>Cocoapods</h3>
+
+<p>To install <code>Mockingird</code> using <strong>Cocoapods</strong> just add it to your project&rsquo;s <code>Podfile</code>:</p>
+<h4 id='swift-4-2' class='heading'>Swift 4.2</h4>
+<pre class="highlight shell"><code> pod <span class="s1">'Mockingbird-Swift'</span>, <span class="s1">'~&gt; 1.0'</span>
+</code></pre>
+
+<p>and if you want to use the <strong>RxSwift</strong> extensions add them:</p>
+<pre class="highlight shell"><code>pod <span class="s1">'Mockingbird-Swift/RxSwift'</span>, <span class="s1">'~&gt; 1.0'</span>
+</code></pre>
+<h4 id='swift-5' class='heading'>Swift 5</h4>
+<pre class="highlight shell"><code> pod <span class="s1">'Mockingbird-Swift'</span>, <span class="s1">'~&gt; 2.0'</span>
+</code></pre>
+
+<p>and if you want to use the <strong>RxSwift</strong> extensions add them:</p>
+<pre class="highlight shell"><code>pod <span class="s1">'Mockingbird-Swift/RxSwift'</span>, <span class="s1">'~&gt; 2.0'</span>
+</code></pre>
+
+<p>To use the library in your application please import the Swift module as follows:</p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">Mockingbird_Swift</span>
+</code></pre>
+<h3 id='swift-package-manager' class='heading'>Swift Package Manager</h3>
+
+<p>Just add <code><a href="Classes/Mockingbird.html">Mockingbird</a></code> as a dependency in your <code>Package.swift</code> file:</p>
+<h4 id='swift-4-2' class='heading'>Swift 4.2</h4>
+<pre class="highlight swift"><code><span class="nv">dependencies</span><span class="p">:</span> <span class="p">[</span>
+    <span class="o">.</span><span class="nf">package</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/jandro-es/Mockingbird"</span><span class="p">,</span> <span class="o">.</span><span class="nf">upToNextMajor</span><span class="p">(</span><span class="nv">from</span><span class="p">:</span> <span class="s">"1.0.0"</span><span class="p">))</span>
+<span class="p">]</span>
+</code></pre>
+<h4 id='swift-5' class='heading'>Swift 5</h4>
+<pre class="highlight swift"><code><span class="nv">dependencies</span><span class="p">:</span> <span class="p">[</span>
+    <span class="o">.</span><span class="nf">package</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/jandro-es/Mockingbird"</span><span class="p">,</span> <span class="o">.</span><span class="nf">upToNextMajor</span><span class="p">(</span><span class="nv">from</span><span class="p">:</span> <span class="s">"2.0.0"</span><span class="p">))</span>
+<span class="p">]</span>
+</code></pre>
+<h2 id='architecture' class='heading'>Architecture</h2>
+
+<p><strong>Mockingbird</strong> simplifies the creation of a network layer in your application. You can define your entire layer in a declarative way by implementing the <code><a href="Protocols/RemoteServiceType.html">RemoteServiceType</a></code> protocol in your different types. Generating a simple map of your network endpoints. Mockingbird uses <code>URLSession</code> as it&rsquo;s undelying network system, exposing it&rsquo;s configuration, allowing you to customise it, among many other customisations, as needed.
+A simplified architecture diagram <em>(please have a look at the code for more details)</em>:</p>
+
+<p><img src="images/mockingbird-architecture.png"></p>
+<h2 id='using-mockingbird' class='heading'>Using Mockingbird</h2>
+<h3 id='defining-a-remote-api' class='heading'>Defining a remote API</h3>
+
+<p>The first step when building your network layer would be to define, in a declarative way, the <em>service</em> or <em>API</em> you want to interact with. For defining these remote APIs you can use <strong>Enum</strong>, <strong>Struct</strong> or <strong>Class</strong>, but we&rsquo;ve found out that the clearest one is using an <strong>Enum</strong> but it might be different in your use case.
+To declare an API we need to implement the protocol <a href="Sources/Mockingbird/RemoteService.swift">RemoteService</a>. A simple example will be as:</p>
+<pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">GitHub</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="n">zen</span>
+    <span class="k">case</span> <span class="nf">userProfile</span><span class="p">(</span><span class="kt">String</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="kd">extension</span> <span class="kt">GitHub</span><span class="p">:</span> <span class="kt">RemoteServiceType</span> <span class="p">{</span>
+
+    <span class="k">var</span> <span class="nv">baseURL</span><span class="p">:</span> <span class="kt">URL</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="kt">URL</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="s">"https://api.github.com"</span><span class="p">)</span><span class="o">!</span>
+    <span class="p">}</span>
+    <span class="k">var</span> <span class="nv">path</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span>
+        <span class="k">switch</span> <span class="k">self</span> <span class="p">{</span>
+        <span class="k">case</span> <span class="o">.</span><span class="nv">zen</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s">"/zen"</span>
+        <span class="k">case</span> <span class="o">.</span><span class="nf">userProfile</span><span class="p">(</span><span class="k">let</span> <span class="nv">name</span><span class="p">):</span>
+            <span class="k">return</span> <span class="s">"/users/</span><span class="se">\(</span><span class="n">name</span><span class="se">)</span><span class="s">"</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="k">var</span> <span class="nv">method</span><span class="p">:</span> <span class="kt">HTTPMethod</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="o">.</span><span class="k">get</span>
+    <span class="p">}</span>
+
+    <span class="k">var</span> <span class="nv">requestType</span><span class="p">:</span> <span class="kt">RequestType</span> <span class="p">{</span>
+        <span class="k">switch</span> <span class="k">self</span> <span class="p">{</span>
+        <span class="k">case</span> <span class="o">.</span><span class="n">zen</span><span class="p">,</span> <span class="o">.</span><span class="nv">userProfile</span><span class="p">:</span>
+            <span class="k">return</span> <span class="o">.</span><span class="n">plain</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="k">var</span> <span class="nv">testData</span><span class="p">:</span> <span class="kt">Data</span> <span class="p">{</span>
+        <span class="k">switch</span> <span class="k">self</span> <span class="p">{</span>
+        <span class="k">case</span> <span class="o">.</span><span class="nv">zen</span><span class="p">:</span>
+            <span class="k">return</span> <span class="s">"The hardest thing in this world is to live in it"</span><span class="o">.</span><span class="nf">data</span><span class="p">(</span><span class="nv">using</span><span class="p">:</span> <span class="kt">String</span><span class="o">.</span><span class="kt">Encoding</span><span class="o">.</span><span class="n">utf8</span><span class="p">)</span><span class="o">!</span>
+        <span class="k">case</span> <span class="o">.</span><span class="nf">userProfile</span><span class="p">(</span><span class="k">let</span> <span class="nv">name</span><span class="p">):</span>
+            <span class="k">return</span> <span class="s">"{</span><span class="se">\"</span><span class="s">login</span><span class="se">\"</span><span class="s">: </span><span class="se">\"\(</span><span class="n">name</span><span class="se">)\"</span><span class="s">, </span><span class="se">\"</span><span class="s">id</span><span class="se">\"</span><span class="s">: 123456}"</span><span class="o">.</span><span class="nf">data</span><span class="p">(</span><span class="nv">using</span><span class="p">:</span> <span class="kt">String</span><span class="o">.</span><span class="kt">Encoding</span><span class="o">.</span><span class="n">utf8</span><span class="p">)</span><span class="o">!</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+    <span class="k">var</span> <span class="nv">validation</span><span class="p">:</span> <span class="kt">RequestValidation</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="o">.</span><span class="n">successAndRedirectCodes</span>
+    <span class="p">}</span>
+
+    <span class="k">var</span> <span class="nv">headers</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">String</span><span class="p">]?</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="kc">nil</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+<p>This example declares an interface for the GitHub API, with two endpoints, <code>.zen</code> and <code>userProfile</code>. Let&rsquo;s see step by step each one of the requirements.</p>
+<h4 id='baseurl' class='heading'>baseURL</h4>
+
+<p>As it&rsquo;s name indicates, this is the base URL of the API. We could have different bases per endpoint (using enums) but that&rsquo;s considered a bad practice, is better to declare different services per base URL. The base URL should contain the protocol information.</p>
+<h4 id='path' class='heading'>path</h4>
+
+<p>This is the fully qualified path of the endpoint, containing all the URL parameters needed (not query string ones). Mockingbird <strong>does not escape</strong> those parameters automatically.</p>
+<h4 id='method' class='heading'>method</h4>
+
+<p>This is the HTTP method / verb to use for the request. Mockingbird provides as an enum the following values:</p>
+
+<ul>
+<li>GET</li>
+<li>POST</li>
+<li>PATCH</li>
+<li>PUT</li>
+<li>DELETE</li>
+<li>HEAD</li>
+</ul>
+<h4 id='requesttype' class='heading'>requestType</h4>
+
+<p>This is the type of request Mockingbird should do, meaning how to prepare the request <strong>and</strong> how to proccess the responnse. The available request types are:</p>
+
+<ul>
+<li>plain: Simple <code><a href="Classes/Request.html">Request</a></code></li>
+<li>data: The <code><a href="Classes/Request.html">Request</a></code> has a body with <code>Data</code></li>
+<li>JSONEncodable: The <code><a href="Classes/Request.html">Request</a></code> has a body with an <code>Encodable</code> object</li>
+<li>customJSONEncodable: The <code><a href="Classes/Request.html">Request</a></code> has a body with an <code>Encodable</code> object using a custom <code>JSONEncoder</code></li>
+<li>compositeData: The request has a collection of URL parameters and a body with <code>Data</code> type</li>
+<li>compositeParameters: The request has a combination of body parameters (encoded as <code>Data</code>) and URL parameters</li>
+<li>download: The request is for downloading a file</li>
+<li>downloadParameters: The request is for downloading a file with URL parameters</li>
+</ul>
+<h4 id='testdata' class='heading'>testData</h4>
+
+<p>This is the <code>Data</code> object to return, for the requested endpoint when using <strong>stubbing</strong>. It can be useful for testing, or even for development under contract agreement.</p>
+<h4 id='validation' class='heading'>validation</h4>
+
+<p>Mockingbird automatically validates the response based on the required validation technique. This allows to simplify your error management code. The available validation techniques are:</p>
+
+<ul>
+<li>none: No validation</li>
+<li>successCodes: Standard HTTP success codes (200,&hellip;,299)</li>
+<li>successAndRedirectCodes: Standard HTTP success and redirect codes (200,&hellip;,399)</li>
+<li>customCodes: Custom collection of valid HTTP codes</li>
+</ul>
+<h4 id='headers' class='heading'>headers</h4>
+
+<p>This is just an optional dictionary of HTTP headers to add to the request.</p>
+<h3 id='initialising-a-mockingbird-instance' class='heading'>Initialising a Mockingbird instance</h3>
+
+<p>It can be quite simple, if you&rsquo;re happy using the <a href="Sources/Mockingbird/Extensions/Mockingbird%2BDefaults.swift">defaults</a> you just need to let the swift compiler know the type:</p>
+<pre class="highlight swift"><code>
+<span class="k">let</span> <span class="nv">githubAPI</span> <span class="o">=</span> <span class="kt">Mockingbird</span><span class="o">&lt;</span><span class="kt">GithubAPI</span><span class="o">&gt;</span><span class="p">()</span>
+
+</code></pre>
+
+<p>Mockingbird instances allow for a lot of customisation and / or configuration, if you want to know all the options I recommend having a look at the tests, as all of the possible cases are covered there.</p>
+
+<p>The most common scenarios when initialising Mockingbird are:</p>
+<pre class="highlight swift"><code>
+<span class="k">let</span> <span class="nv">githubAPI</span> <span class="o">=</span> <span class="kt">Mockingbird</span><span class="o">&lt;</span><span class="kt">GithubAPI</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">middleware</span><span class="p">:</span> <span class="p">[</span><span class="kt">Middleware</span><span class="o">.</span><span class="n">networkActivityIndicator</span><span class="p">])</span>
+
+</code></pre>
+
+<p>Creates an instance for <code>GithubAPI</code> with the given <strong>Middleware</strong>.</p>
+<pre class="highlight swift"><code>
+<span class="k">let</span> <span class="nv">githubAPI</span> <span class="o">=</span> <span class="kt">Mockingbird</span><span class="o">&lt;</span><span class="kt">GithubAPI</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">sessionConfiguration</span><span class="p">:</span> <span class="n">configuration</span><span class="p">)</span>
+
+</code></pre>
+
+<p>Creates an instance for <code>GithubAPI</code> using the given <strong>URLSessionConfiguration</strong>.</p>
+<pre class="highlight swift"><code>
+<span class="k">let</span> <span class="nv">githubAPI</span> <span class="o">=</span> <span class="kt">Mockingbird</span><span class="o">&lt;</span><span class="kt">GithubAPI</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">stubLambda</span><span class="p">:</span> <span class="kt">Mockingbird</span><span class="o">.</span><span class="n">immediatelyStub</span><span class="p">)</span>
+
+</code></pre>
+
+<p>Creates an instance for <code>GithubAPI</code> that retuns, without delay, a stub. This stub is the <code>testData</code> declared in the <code>GithubAPI</code> enum.</p>
+<h3 id='requesting-data' class='heading'>Requesting data</h3>
+<h4 id='using-closures' class='heading'>Using closures</h4>
+
+<p>When using <strong>closures</strong> as the return technique, it returns a <code>Result</code> type that has <code>success(value)</code> and an <code>failure(error)</code> cases.</p>
+<pre class="highlight swift"><code>
+<span class="n">githubAPI</span><span class="o">.</span><span class="nf">request</span><span class="p">(</span><span class="o">.</span><span class="n">zen</span><span class="p">)</span> <span class="p">{</span> <span class="n">result</span> <span class="k">in</span>
+    <span class="k">switch</span> <span class="n">result</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="kd">let</span> <span class="o">.</span><span class="nf">success</span><span class="p">(</span><span class="n">response</span><span class="p">):</span>
+      <span class="nf">print</span><span class="p">(</span><span class="s">"data: </span><span class="se">\(</span><span class="n">response</span><span class="o">.</span><span class="n">data</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+    <span class="k">case</span> <span class="kd">let</span> <span class="o">.</span><span class="nf">failure</span><span class="p">(</span><span class="n">mockingbirdError</span><span class="p">):</span>
+      <span class="nf">print</span><span class="p">(</span><span class="s">"error: </span><span class="se">\(</span><span class="n">mockingbirdError</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+</code></pre>
+<h4 id='using-rxswift' class='heading'>Using RxSwift</h4>
+
+<p><a href="https://github.com/ReactiveX/RxSwift">RxSwift</a> extensions are provided out of the box. To use them when requesting data:</p>
+<pre class="highlight swift"><code>
+<span class="n">githubAPI</span><span class="o">.</span><span class="n">rx</span><span class="o">.</span><span class="nf">request</span><span class="p">(</span><span class="o">.</span><span class="n">zen</span><span class="p">)</span>
+<span class="o">.</span><span class="n">subscribe</span> <span class="p">{</span> <span class="n">event</span> <span class="k">in</span>
+  <span class="k">switch</span> <span class="n">event</span> <span class="p">{</span>
+  <span class="k">case</span> <span class="o">.</span><span class="nf">success</span><span class="p">(</span><span class="k">let</span> <span class="nv">response</span><span class="p">):</span>
+      <span class="nf">print</span><span class="p">(</span><span class="s">"data: </span><span class="se">\(</span><span class="n">response</span><span class="o">.</span><span class="n">data</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+  <span class="k">case</span> <span class="o">.</span><span class="nv">error</span><span class="p">:</span>
+      <span class="nf">print</span><span class="p">(</span><span class="s">"error: </span><span class="se">\(</span><span class="n">mockingbirdError</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+<span class="p">}</span>
+
+</code></pre>
+
+<p>Using RxSwift allows for a clean validation and manipulation using the available <a href="https://github.com/jandro-es/Mockingbird/blob/master/Sources/RxMockingbird/Observable%2BResponse.swift">Rx operators</a>.</p>
+<h3 id='middleware' class='heading'>Middleware</h3>
+
+<p>Middleware is a powerful way of adding logging, authentication tokens and / or modifying your requests and responses in a clean and decoupled way. It&rsquo;s defined by the protocol <a href="Sources/Mockingbird/Middleware.swift">MiddlewareType</a>. Two middleware types are included:</p>
+<h4 id='authentication-token-middleware' class='heading'>Authentication Token Middleware</h4>
+
+<p>This middleware allows you to automatically add an authentication token to all the requests that need it. It&rsquo;s defined in <a href="Sources/Mockingbird/Middleware/AccessTokenMiddleware.swift">AccessTokenMiddleware</a>. The supported types of auth token are:</p>
+
+<ul>
+<li>none: No AccessToken</li>
+<li>basic: <code>Basic</code> AccessToken</li>
+<li>bearer: <code>Bearer</code> AccessToken</li>
+<li>custom: <code>custom</code> AccessToken</li>
+</ul>
+
+<p>To have a look on how to use it have a look at the tests in <a href="Tests/MockingbirdTests/MockingbirdIntegrationTests.swift">MockingbirdIntegrationTests</a>.</p>
+<h4 id='network-activity-middleware' class='heading'>Network Activity Middleware</h4>
+
+<p>This middleware executes a block when the actual network request starts, and finishes. Allowing the user to for example update the UI. One common example in iOS is to show and hide the <code>NetworkActivityIndicator</code>.</p>
+<pre class="highlight swift"><code>
+<span class="kd">static</span> <span class="k">var</span> <span class="nv">networkActivityIndicator</span><span class="p">:</span> <span class="kt">NetworkActivityMiddleware</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="kt">NetworkActivityMiddleware</span> <span class="p">{</span> <span class="n">status</span><span class="p">,</span> <span class="n">_</span> <span class="k">in</span>
+      <span class="k">switch</span> <span class="n">status</span> <span class="p">{</span>
+      <span class="k">case</span> <span class="o">.</span><span class="nv">began</span><span class="p">:</span>
+          <span class="kt">DispatchQueue</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">async</span> <span class="p">{</span>
+              <span class="kt">UIApplication</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">isNetworkActivityIndicatorVisible</span> <span class="o">=</span> <span class="kc">true</span>
+          <span class="p">}</span>
+      <span class="k">case</span> <span class="o">.</span><span class="nv">ended</span><span class="p">:</span>
+          <span class="kt">DispatchQueue</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">async</span> <span class="p">{</span>
+              <span class="kt">UIApplication</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="n">isNetworkActivityIndicatorVisible</span> <span class="o">=</span> <span class="kc">false</span>
+          <span class="p">}</span>
+      <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+</code></pre>
+<h2 id='logging' class='heading'>Logging</h2>
+
+<p>Mockingbird uses <a href="https://developer.apple.com/documentation/os/logging">Apple&rsquo;s Unified Logging</a>.</p>
+
+<table><thead>
+<tr>
+<th>Subsystem</th>
+<th>Category</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>com.filtercode.mockingbird</td>
+<td>request_operation</td>
+</tr>
+<tr>
+<td>com.filtercode.mockingbird</td>
+<td>request</td>
+</tr>
+<tr>
+<td>com.filtercode.mockingbird</td>
+<td>response</td>
+</tr>
+<tr>
+<td>com.filtercode.mockingbird</td>
+<td>middleware</td>
+</tr>
+</tbody></table>
+<h2 id='comming-soon' class='heading'>Comming soon</h2>
+
+<ul>
+<li>Multipart upload</li>
+<li>Download progress</li>
+</ul>
+<h2 id='contributing' class='heading'>Contributing</h2>
+<h3 id='installing-the-project' class='heading'>Installing the project</h3>
+
+<p>We use <strong>Swift Package Manager</strong> to develop the framework, after cloning the project run:</p>
+<pre class="highlight shell"><code>
+swift package generate-xcodeproj
+
+</code></pre>
+
+<p>to generate a Xcode project. For building run:</p>
+<pre class="highlight shell"><code>
+swift build
+
+</code></pre>
+
+<p>and for running the tests <em>(assumming you have xcpretty installed, remove the pipe if not)</em>.</p>
+<pre class="highlight shell"><code>
+xcodebuild <span class="nb">test</span> -scheme Mockingbird-Package -project Mockingbird.xcodeproj -enableCodeCoverage YES | xcpretty
+
+</code></pre>
+<h2 id='license' class='heading'>License</h2>
+
+<p>This project is released under <a href="LICENSE">MIT</a> license.</p>
+
+          </div>
+        </section>
+
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2019 <a class="link" href="https://github.com/jandro-es" target="_blank" rel="external">Filtercode Ltd</a>. All rights reserved. (Last updated: 2019-11-18)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.12.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
